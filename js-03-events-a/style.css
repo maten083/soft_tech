@@ -1,0 +1,66 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	-webkit-user-select: none;
+}
+
+#container
+{
+	width: 95%;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.advertising
+{
+	background: #eee;
+	border: 1px solid #ddd;
+	padding: 20px;
+	box-sizing: border-box;
+}
+	.advertising > *
+	{
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+
+.additional
+{
+	border: 1px solid #eee;
+	color: #666;
+	padding: 15px;
+}
+.additional .more
+{
+	color: #bbb;
+	cursor: pointer;
+}
+.additional .hidden
+{
+	display: none;
+}
+
+ul.offers
+{
+	padding: 0;
+	list-style: none;
+}
+	ul.offers li
+	{
+		font-size: 110%;
+		margin-bottom: 5px;
+		border: 1px solid #eee;
+		padding: 5px;
+		cursor: pointer;
+		color: #fff;
+	}
+	ul.offers li:hover
+	{
+		background: #eee;
+		color: #eee;
+	}
+
+
